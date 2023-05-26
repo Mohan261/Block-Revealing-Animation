@@ -19,7 +19,7 @@ span{
 }
 h1{
 	font-size:75px;
-	animation:text-an 5s 1;
+	animation:text-an 5.7s 1;
 	padding:6px 0;
 	animation-fill-mode:forward;
 	
@@ -36,6 +36,7 @@ h1{
 	transform:translateX(102%);
 	animation:color-an 4s 1;
 	animation-fill-mode:backwards;
+	animation-timing-function:cubic-bezier(0.6,1,1,1);
 	animation-delay:1s;
 }
 .color-2::after{
@@ -50,6 +51,7 @@ h1{
 	transform:translateX(102%);
 	animation:color-an 3.2s 1;
 	animation-fill-mode:backwards;
+	animation-timing-function:ease-out;
 	animation-delay:1.6s;
 
 }
