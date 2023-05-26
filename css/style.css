@@ -48,7 +48,7 @@ h1{
 	left:0;
 	opacity:1;
 	transform:translateX(102%);
-	animation:color-an 3.5s 1;
+	animation:color-an 3.2s 1;
 	animation-fill-mode:backwards;
 	animation-delay:1.6s;
 
